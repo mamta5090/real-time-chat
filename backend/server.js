@@ -16,7 +16,7 @@ dotenv.config();
 const PORT = process.env.PORT || 8000;
 
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://real-time-chat-app-frontend-tqj4.onrender.com",
   credentials:true
 }));
 
